@@ -1,0 +1,8 @@
+lado1 = float(input("Lado 1: "))
+lado2 = float(input("Lado 2: "))
+lado3 = float(input("Lado 3: "))
+
+if lado1 < lado2 + lado3 and lado2 < lado1 + lado3 and lado3 < lado1 + lado2:
+    print("FORMAM UM TRIÂNGULO")
+else:
+    print("NÃO FORMAM UM TRIÂNGULO")
